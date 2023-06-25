@@ -1,6 +1,7 @@
 import './App.css';
 import Welcome from './componentes/Welcome';
 import WelcomeES from './componentes/WelcomeES';
+import Input from './componentes/Input';
 
 function App() {
   const name = "Omar"
@@ -17,6 +18,8 @@ function App() {
 
       <Welcome name="Omar" age="23" location="Cairo"/>
       <WelcomeES name="Omar" age="23" location="Cairo"/>
+      <Input label="Name" type="text"/>
+      <Input label="password" type="password"/>
     </div>
     </>
   );
